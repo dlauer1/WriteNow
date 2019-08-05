@@ -1,0 +1,38 @@
+.body-container {
+  width: 100%;
+}
+.nav-link {
+    font-size: large;
+  }
+
+  .header-container {
+    background-color: #333333;
+    max-height: 150px;
+    width: 100%;
+  }
+
+  ul > li > a {
+    background-color: #333333;
+    color: #9DA4A7;
+  }
+
+  .nav-link.active {
+    color: #007bff !important;
+  }
+  
+  .navbar-brand {
+    color: white !important;
+    font-size: 38px;
+    font-family: 'Fira Sans', sans-serif;
+    padding-left: 12px;
+  }
+
+  .nav-pills {
+    padding-inline-start: 423px;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width:100%;
+  }
