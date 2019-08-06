@@ -3,7 +3,7 @@ import { Component } from "@angular/core";
 @Component({
   selector: "app-root",
   template: `
-    <nav class="navbar navbar-expand" style="background-color: #333333;">
+    <nav class="navbar navbar-expand fixed-top" style="background-color: #333333;">
       <img
         src="assets/images/Logo2.png"
         height="90"
