@@ -1,4 +1,4 @@
-.body-container {
+/* .body-container {
   width: 100%;
 }
 .nav-link {
@@ -16,6 +16,10 @@
     color: #9DA4A7;
   }
 
+  nav > ul > li {
+    float: right;
+  }
+
   .nav-link.active {
     color: #007bff !important;
   }
@@ -31,7 +35,52 @@
     padding-inline-start: 423px;
   }
 
+
+
   footer {
     bottom: 0;
     width:100%;
+  }
+
+  .pill-links {
+    justify-content: flex-end;
+  } */
+
+  .nav-writenow {
+    background-color: #333333;
+    height: 100px;
+    align-items: center;
+  }
+
+  .nav-writenow .title_text {
+    font-size: 38px;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    text-align: left;
+    padding: 0;
+  }
+
+  .logo {
+    height: 85px;
+    width: 85px;
+  }
+
+  .nav-writenow .pill_container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .nav-writenow .pill_links {
+    display: flex;
+    list-style: none;
+    margin: auto 0 auto 0;
+  }
+
+  ul > li > a {
+    color: #9DA4A7;
+    font-size: 18px;
+  }
+
+  .nav-link.active {
+    color: #007bff !important;
   }
