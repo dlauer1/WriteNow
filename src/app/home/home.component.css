@@ -8,8 +8,20 @@
 
 .blog-news {
     color: #2AAAE2;
+    padding-left: 9%;
 }
 
-/* .footer-testimonial {
-    background-color: #333333;
-} */
+.masonry-demo {
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+
+.masonry-item {
+    width: 33%;
+    margin-bottom: 30px;
+}
+
+.masonry-item > img {
+    width: 90%;
+}

@@ -1,4 +1,3 @@
-<div class="container-fluid">
   <div class="cta-img">
     <img
       src="assets/images/slogan.PNG"
@@ -7,4 +6,12 @@
     />
   </div>
   <h1 class="blog-news">NEWS</h1>
-</div>
+  <div class="masonry-demo">
+    
+      <ngx-masonry [options]="masonryOptions" [useImagesLoaded]="true">
+          <ngxMasonryItem *ngFor="let picture of masonryImages" class="masonry-item">
+            
+            <img src="{{picture.picture}}">
+          </ngxMasonryItem>
+        </ngx-masonry>
+  </div>
