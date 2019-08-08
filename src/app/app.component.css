@@ -107,11 +107,11 @@
   }
 
   .test-link {
-    color:#007bff;
+    color:white;
   }
 
   .vid-test {
     width: 15%;
-    background-color: white;
+    background-color: #007bff ;
     border-radius: 12px;
   }
