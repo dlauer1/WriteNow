@@ -84,3 +84,34 @@
   .nav-link.active {
     color: #007bff !important;
   }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #333333;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer .container a {
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .test-link {
+    color:#007bff;
+  }
+
+  .vid-test {
+    width: 15%;
+    background-color: white;
+    border-radius: 12px;
+  }

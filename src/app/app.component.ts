@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { Router } from '@angular/router';
 
 @Component({
   selector: "app-root",
@@ -9,7 +10,7 @@ import { Component } from "@angular/core";
           <img class="logo" src="assets/images/Logo2.png" alt="logo" />
         </div>
         <div class="col-3 title_text">
-          {{title}}
+          {{ title }}
         </div>
         <div class="col-8 pill_container">
           <ul class="pill_links">
@@ -43,59 +44,29 @@ import { Component } from "@angular/core";
         </div>
       </div>
     </nav>
+    <footer class="footer">
+      <div class="container">
+      <div *ngIf="router.url != '/testimonials'" class='vid-test'>
+        <a
+          class="test-link"
+          routerLinkActive="active"
+          [routerLink]="['/testimonials']"
+          >Video Testimonials
+        </a>
+        </div>
+      </div>
+    </footer>
+    <router-outlet></router-outlet>
   `,
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
   title = "Write Now!";
+  constructor(private router: Router) { }
+
+  ngOnInit() {
+    console.log(this.router)
+  }
+
 }
 
-// <nav class="navbar navbar-expand fixed-top" style="background-color: #333333;">
-//       <img
-//         src="assets/images/Logo2.png"
-//         height="90"
-//         weight="90"
-//         class="d-inline-block"
-//         alt="logo"
-//       />
-//       <a class="navbar-brand">WRITE NOW!</a>
-//       <ul>
-//         <li>
-//           <a
-//             class="nav-link"
-//             style="background-color: #333333;"
-//             routerLinkActive="active"
-//             [routerLink]="['/home']"
-//             >Home</a
-//           >
-//         </li>
-//         <li>
-//           <a class="nav-link disabled">Services</a>
-//         </li>
-//         <li>
-//           <a
-//             class="nav-link"
-//             routerLinkActive="active"
-//             [routerLink]="['/testimonials']"
-//             >Video Testimonials</a
-//           >
-//         </li>
-//         <li>
-//           <a class="nav-link disabled">Company</a>
-//         </li>
-//         <li>
-//           <a class="nav-link disabled">Contact</a>
-//         </li>
-//       </ul>
-//     </nav>
-//     <div class="body-container">
-//       <router-outlet></router-outlet>
-//       <footer class="page-footer font-small blue">
-//         <div
-//           class="footer-testimonial text-center"
-//           style=" padding-top:8px; background-color: #333333; height:55px"
-//         >
-//           <button type="button" class="btn btn-primary">Testimonials</button>
-//         </div>
-//       </footer>
-//     </div>
