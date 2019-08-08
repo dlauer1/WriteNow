@@ -8,7 +8,7 @@
   <h1 class="blog-news">NEWS</h1>
   <div class="masonry-demo">
     
-      <ngx-masonry [options]="masonryOptions" [useImagesLoaded]="true">
+      <ngx-masonry [options]="myOptions" [useImagesLoaded]="true">
           <ngxMasonryItem *ngFor="let picture of masonryImages" class="masonry-item">
             
             <img src="{{picture.picture}}">
