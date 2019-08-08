@@ -62,7 +62,7 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = "Write Now!";
-  constructor(private router: Router) { }
+  constructor(public router: Router) { }
 
   ngOnInit() {
     console.log(this.router)
