@@ -37,21 +37,21 @@ export class HomeComponent implements OnInit {
         blogId: 3,
         date: "2017-01-14T11:43:56+00:00",
         title: "Retro Carnival",
-        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less.",
+        description: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
         picture: "http://c1.staticflickr.com/8/7678/17356599305_3019275863_h.jpg"
     },
     {
         blogId: 4,
         date: "2017-03-18T11:56:56+00:00",
         title: "Boy And The Bubble",
-        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less.",
+        description: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
         picture: "http://c1.staticflickr.com/2/1540/24915161765_521581a8f1_h.jpg"
     },
     {
         blogId: 5,
         date: "2017-01-18T11:56:56+00:00",
         title: "The Colorful Balls",
-        description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less.",
+        description: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
         picture: "http://c1.staticflickr.com/4/3721/8775090230_50dffdfbeb_h.jpg"
     },
     {

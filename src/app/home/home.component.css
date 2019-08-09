@@ -25,3 +25,18 @@
 .masonry-item > img {
     width: 90%;
 }
+
+.p-title {
+font-size: 1.875rem;
+font-weight: 400;
+text-align: left;
+color: #333333;
+padding-left: 15px;
+}
+
+.p-description {
+    text-align: left;
+    padding-left: 17px;
+    color: #333333;
+    font-size: 1rem;
+}

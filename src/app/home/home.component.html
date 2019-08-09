@@ -10,8 +10,9 @@
     
       <ngx-masonry [options]="myOptions" [useImagesLoaded]="true">
           <ngxMasonryItem *ngFor="let picture of masonryImages" class="masonry-item">
-            
+            <p class="p-title">{{picture.title}}</p>
             <img src="{{picture.picture}}">
+            <p class="p-description">{{picture.description}}</p>
           </ngxMasonryItem>
         </ngx-masonry>
   </div>
