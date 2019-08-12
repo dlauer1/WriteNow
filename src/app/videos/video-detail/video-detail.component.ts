@@ -8,6 +8,6 @@ import { AppState } from "../../shared/app-state.service";
 })
 export class VideoDetailComponent {
 
-  constructor(private appState: AppState) {}
+  constructor(public appState: AppState) {}
 
 }

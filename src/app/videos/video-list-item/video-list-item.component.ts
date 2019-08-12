@@ -10,7 +10,7 @@ import {AppState} from "../../shared/app-state.service";
 export class VideoListItemComponent {
   @Input() video: Video;
 
-  constructor(private appState: AppState) {}
+  constructor(public appState: AppState) {}
 
   onClick(){
     this.appState.activeVideo = this.video;
