@@ -13,7 +13,7 @@ export class VideoListComponent implements OnInit {
 
   videoList:Video[] = [];
 
-  constructor(private videoService:VideoService, private appState:AppState) {
+  constructor(public videoService:VideoService, public appState:AppState) {
   }
 
 
