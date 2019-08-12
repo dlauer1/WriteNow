@@ -9,7 +9,7 @@ import { Response } from '@angular/http';
 
 @Injectable()
 export class VideoService {
-  constructor(private http: HttpClient, private appState: AppState) {}
+  constructor(public http: HttpClient, public appState: AppState) {}
 
   fetchVideos(query: string) {
     return this.http
