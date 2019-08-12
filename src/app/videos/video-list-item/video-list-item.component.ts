@@ -13,6 +13,7 @@ export class VideoListItemComponent {
   constructor(public appState: AppState) {}
 
   onClick(){
+    console.log(this.appState);
     this.appState.activeVideo = this.video;
   }
 
